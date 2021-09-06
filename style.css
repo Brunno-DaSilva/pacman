@@ -6,3 +6,33 @@
     padding: 0;
     background: #04224e;
 }
+
+.grid{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid whitesmoke;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot{
+    background-color: lightgreen;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+.wall  {
+    background-color: lime;
+
+}
+
+.power-pallet {
+    background-color: gold;
+    border-radius: 10px;
+}
+
